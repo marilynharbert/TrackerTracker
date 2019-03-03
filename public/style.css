@@ -1,0 +1,76 @@
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: "futura";
+  color: white;
+}
+p {
+  color: white;
+
+}
+a {
+  color: white;
+  border: 4px solid white;
+  padding: 6px;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+div{ 
+
+  background-color: Black; /* Green */
+  border: white;
+  color: white;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+   text-align: center;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a:link, a:visited {
+  background-color:black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: gray;
+}
+  
+  
