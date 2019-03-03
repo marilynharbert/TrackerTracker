@@ -8,7 +8,6 @@ import csv
 #load the JSON file
 with open('lightbeamData.json') as file:
     data = json.load(file)
-print(data['5290727.fls.doubleclick.net'].keys())
 
 #find hostnames from JSON, aggregate to list hnames
 hnames = []
